@@ -15,8 +15,8 @@ setup(
     author_email='testadicardi@gmail.com',
     description='Image Super Resolution',
     long_description=long_description,
+    install_requires=['imageio', 'numpy==1.19.3', 'tensorflow==2.2', 'tqdm', 'pyaml'],
     license='Apache 2.0',
-    install_requires=['imageio', 'numpy', 'tensorflow==2.*', 'tqdm', 'pyaml'],
     extras_require={
         'tests': ['pytest==4.3.0', 'pytest-cov==2.6.1'],
         'docs': ['mkdocs==1.0.4', 'mkdocs-material==4.0.2'],
